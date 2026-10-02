@@ -1,0 +1,17 @@
+server:
+  port: 8089
+spring:
+  application:
+    name: Collegeinfo
+  datasource:
+    url: jdbc:postgresql://dpg-davv5m60tbcc73fhk5vg-a.oregon-postgres.render.com:5432/student_h3wz
+    username: student_h3wz_user
+    password: Opl4vt3iFvMVETAxGefNWQz3Rw5orRby
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+eureka:
+  instance:
+    hostname: localhost
